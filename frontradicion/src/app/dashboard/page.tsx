@@ -31,12 +31,12 @@ interface Corte {
 
 
         <div className="contenedor">
-        <h2>Administracion</h2>
+        <h2 className="ip1">Administracion</h2>
 
       <div className={styles.tableContainer}>
         <table>
               <thead>
-                  <tr>
+                  <tr className="op1">
                       <th>Peluquero</th>
                       <th>Valor</th>
                       <th>Metodo de Pago</th>

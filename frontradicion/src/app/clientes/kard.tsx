@@ -10,7 +10,7 @@ const nombre = promo.id
 
   return (
     
-    <tr className="carta"  key={promo.id}>
+    <tr className="carta1"  key={promo.id}>
     <td>{promo.client}</td>
     <td>{promo.initialDay}</td>
     <td>{promo.dates}</td>

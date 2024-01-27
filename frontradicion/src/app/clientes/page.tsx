@@ -19,14 +19,14 @@ interface Promo {
 
     return (
         <div className="contenedor">
-        <h2>Clientes con Promo</h2>
+        <h2 className="ip" >Clientes con Promo</h2>
 
         <div className={styles.tableContainer}>
        
        
           <table>
               <thead>
-                  <tr>
+                  <tr className="op">
                       <th>Cliente </th>
                       <th>Fecha de inicio de la Promo</th>
                       

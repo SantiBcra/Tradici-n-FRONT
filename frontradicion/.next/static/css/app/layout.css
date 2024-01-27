@@ -206,14 +206,55 @@ font-size: 20px;
 
 
 @media (max-width:630px){
-    .carta{
 
+
+    .ip{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+    
+
+.ip1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.op{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+
+.op1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+
+    .carta{
+        margin-right: 50px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        border: 2px solid black;
 
     }
+
+    .carta1{
+        margin-right: 30px;
+        display: flex;
+        background-color: #ffffff;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+
+    }
+
 
     table{
         display: flex;
