@@ -4,7 +4,7 @@ export async function fetchData() {
     
     try{
 
-        const url = `${process.env.URL_DB}`
+        const url = `https://server-tradicion.onrender.com/admin/haircut`
             const datos =  await fetch(url, {next: {revalidate:60}})
            const respuesta = await datos.json()
 
@@ -22,7 +22,7 @@ export async function fetchPromos() {
     
     try{
 
-        const url = `${process.env.URLL_DB}`
+        const url = `https://server-tradicion.onrender.com/promo/`
             const datos =  await fetch(url, {next: {revalidate:60}})
            const respuesta = await datos.json()
 

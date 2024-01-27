@@ -14,7 +14,7 @@ const nombre = promo.id
     <td>{promo.client}</td>
     <td>{promo.initialDay}</td>
     <td>{promo.dates}</td>
-    <td onClick={() => {axios.delete(`http://localhost:3001/promo/${nombre}`)
+    <td onClick={() => {axios.delete(`https://server-tradicion.onrender.com/promo/${nombre}`)
   Swal.fire({
     title: "Listo!",
     text: "El corte sera restado en breve!",

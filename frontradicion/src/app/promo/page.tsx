@@ -18,7 +18,7 @@ export default function Form(){
         <div className="contenedor" >
 
 
-            <form className="form" onSubmit={handleSubmit(data => {axios.post("http://localhost:3001/promo/",data)
+            <form className="form" onSubmit={handleSubmit(data => {axios.post("https://server-tradicion.onrender.com/promo/",data)
         
         Swal.fire({
             title: "Listo!",

@@ -16,7 +16,7 @@ export default function Form(){
         <div className="contenedor" >
 
 
-            <form className="form" onSubmit={handleSubmit(data => {axios.post("http://localhost:3001/admin/haircut",data)
+            <form className="form" onSubmit={handleSubmit(data => {axios.post("https://server-tradicion.onrender.com/admin/haircut",data)
             Swal.fire({
                 title: "Excelente!",
                 text: "El nuevo corte fue agregado!",
