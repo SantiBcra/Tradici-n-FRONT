@@ -8,7 +8,7 @@ const PasswordProtectedButton = () => {
   const router = useRouter()
 
   const [password, setPassword] = useState('');
-  const correctPassword = 'tucontraseña'; // Cambia 'tucontraseña' por la contraseña que desees
+  const correctPassword = 'yaircontrol'; // Cambia 'tucontraseña' por la contraseña que desees
 
   const handleButtonClick = () => {
     if (password === correctPassword) {
