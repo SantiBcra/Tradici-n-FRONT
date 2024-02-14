@@ -14,6 +14,7 @@ export default async function Page(){
   pago: string;
   metodo: string;
   fecha: string;
+  time: string;
 }
 
 
@@ -47,7 +48,7 @@ const data3 = await data.filter((corte:any) => corte.peluquero == 3)
                      
                       <th>Valor</th>
                       <th>Metodo de Pago</th>
-                      <th>Fecha de Realizacion </th>
+                      <th>Fecha y hora </th>
                       
                   </tr>
               </thead>
@@ -80,7 +81,7 @@ const data3 = await data.filter((corte:any) => corte.peluquero == 3)
                       
                       <th>Valor</th>
                       <th>Metodo de Pago</th>
-                      <th>Fecha de Realizacion </th>
+                      <th>Fecha y Hora </th>
                       
                   </tr>
               </thead>
@@ -112,7 +113,7 @@ const data3 = await data.filter((corte:any) => corte.peluquero == 3)
                       
                       <th>Valor</th>
                       <th>Metodo de Pago</th>
-                      <th>Fecha de Realizacion </th>
+                      <th>Fecha y Hora </th>
                       
                   </tr>
               </thead>

@@ -10,7 +10,8 @@ const FieldCard = ({corte} : {corte:any}) => {
         
         <td className='edit'>$ {corte.pago}</td>
         <td >- {corte.metodo}</td>
-        <td> {corte.fecha}</td>
+        <td>{corte.fecha} {corte.time}</td>
+        
        
     </tr>
     
